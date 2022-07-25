@@ -1,0 +1,368 @@
+/* Html */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+p {
+    color: #886F6F;
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+}
+
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* Sections */
+
+.colored-section {
+    background-color: #C1A3A3;
+    color: #FDF6EC;
+}
+
+.white-section {
+    background-color: white;
+    color: black
+}
+
+
+/* Headings */
+
+.big-heading {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bolder;
+    font-size: 4.5rem;
+    line-height: 1.5;
+}
+
+.medium-headers {
+    font-family: 'Montserrat-Black', sans-serif;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+
+/* Navagation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 3px 0 #101010, 1px 3px 0 rgba(0, 0, 0, 0.15);
+}
+
+.navbar-nav {
+    text-shadow: none;
+}
+
+.brand-small-word {
+    font-family: 'Faustina', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+.nav-link2 {
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Montserrat-Light', sans-serif;
+    font-weight: bold;
+    left: 50%;
+}
+
+.nav-link2:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+/*Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Title */
+
+#title {
+    text-align: left;
+    text-shadow: 1px 2px 0 #101010, 1px 2px 0 rgba(0, 0, 0, 0.15);
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+/* Title Image */
+
+.title-image {
+    position: absolute;
+    right: 15%;
+    transform: rotate(10deg);
+    width: 25%;
+}
+
+
+/*contact page*/
+
+.title-image2 {
+    right: 47%;
+    width: 7%;
+}
+
+
+/* Features*/
+
+#features p {
+    color: black;
+    font-weight: bold;
+}
+
+#features {
+    position: relative;
+    color: #886F6F;
+}
+
+#features2 {
+    position: relative;
+    background-image: url(/Media/header-img.png);
+    background-attachment: fixed;
+    background-size: 30%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding: 0px 0;
+    position: relative;
+    height: 100vh;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+
+/* Testimonal  */
+
+.testimonial-image {
+    margin: 20px;
+    width: 15%;
+}
+
+.testimonial-text {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+#press {
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+#cta,
+.cta-heading {
+    font-weight: bolder;
+}
+
+
+/* Footer, call to action */
+
+.footer-icon {
+    margin: 20px 10px;
+    color: #694E4E;
+}
+
+
+/* Media */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+/* Contact Page */
+
+.navbar-brand2 {
+    font-family: 'Faustina', serif;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 2% 5%;
+}
+
+.content-header {
+    font-family: 'Montserrat-Black', sans-serif, cursive;
+    color: rgb(23, 70, 146);
+    font-size: 5rem;
+    font-weight: bolder;
+    margin-top: 25%;
+}
+
+.section-content {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#contact {
+    font-family: 'Faustina', serif;
+    padding-top: 30px;
+    width: 100%;
+    height: 550px;
+}
+
+.contact-section {
+    padding-top: 40px;
+}
+
+.contact-section .col-md-6 {
+    width: 50%;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+.form-control {
+    font-size: 1.3em;
+    color: #080808;
+}
+
+textarea.form-control {
+    height: 135px;
+    margin-top: 10px;
+}
+
+.submit {
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    background-color: transparent;
+}
+
+@media (max-width: 870px) {
+    .contact-section .col-md-6 {
+        width: 100%;
+    }
+    .navbar-brand2 {
+        margin: 10% 25%;
+    }
+}
+
+
+/* Contact */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.custom-button {
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.8s ease;
+    background: #463333;
+    background: -webkit-linear-gradient(to right, #FFF0F0, #463333);
+    background: linear-gradient(to right, #835858, #EBD4D4);
+}
+
+.custom-button:hover,
+.custom-button:focus {
+    transition: 0.8s ease;
+    letter-spacing: 3px;
+    background-color: #101010;
+}
+
+.form-box-inner .form-control {
+    background: #ffffff8a;
+    border: 2px solid #000000;
+    box-shadow: none;
+}
+
+.form-box-inner .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.map-box iframe {
+    width: 100%;
+    height: 357px;
+}
+
+.map-box {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.heading-title {
+    margin-right: 0.1%;
+    padding: 60px;
+    font-size: 35px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact-box {
+    background: #ffffff8a;
+    height: 365px;
+    padding: 15px;
+}
+
+.contact-box ul li {
+    margin-bottom: 0px;
+    padding: 8px;
+}
+
+.contact i {
+    font-size: 25px;
+    color: #835858;
+}
+
+.form-box-inner {
+    background: #ffffff8a;
+    padding: 15px;
+}
